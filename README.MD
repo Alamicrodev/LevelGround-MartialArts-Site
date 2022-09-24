@@ -1,6 +1,6 @@
 # LEVEL GROUND Martial Arts SITE: [Visit Here](https://levelgroundtrainers.netlify.app/) 
 
-A single page responsive site for a martial arts training group. Design taken from the picture/wireframe provided below. All the layout must be completed using floats and without using CSS grid or flexbox. The site is available onine for visit [here](https://levelgroundtrainers.netlify.app/).
+A single page responsive site for a martial arts training group. Design taken from the picture/wireframe provided below. All the layout must be completed using floats and without using CSS grid or flexbox. The site is available online for visit [here](https://levelgroundtrainers.netlify.app/).
 
 
 ### Purpose:
