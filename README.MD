@@ -1,20 +1,18 @@
-# LEVEL GROUND WIREFRAME SITE LAYOUT
+# LEVEL GROUND Martial Arts SITE: [Visit Here](https://levelgroundtrainers.netlify.app/) 
 
-#### Class:
+Without using CSS grid or flexbox, create a site for a martial arts training group as close as you can from the picture/wireframe provided below. All the layout must be completed using floats. The design must be responsive. The site is available onine for visit [here](https://levelgroundtrainers.netlify.app/).
 
-8, 9, 10
 
-#### Task:
-
-Without using CSS grid or flexbox, create a clone of the level ground concept site layout as close as you can from the picture/wireframe provided in the folder. All the layout must be completed using floats. The design must be responsive.
-
-Must be responsive!
-
-#### Image:
+### Concept:
 
 <img src="./level-ground-wireframe.png" width="50%" />
 
-## Languages and Tools
+
+### Purpose:
+
+The purpose is to write responsive CSS without relying on CSS grid or flexbox. This sharpens the skill to understand complex CSS concepts like floats and clears.
+
+### Languages and Tools
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
 <img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
