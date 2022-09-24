@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html {
+	font-size: 62.5%;
+}
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Bebas Neue", cursive;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.btn {
+	padding: 10px 40px;
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: solid black 1px;
+	display: inline-block;
+}
+
+.btn:hover {
+	color: white;
+	background-color: black;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.hero-background {
+	background: center/cover no-repeat
+		url("https://images.pexels.com/photos/163403/box-sport-men-training-163403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	margin: 0;
+	padding: 0;
+}
+
+/* Header and Nav */
+
+header {
+	padding: 15px 40px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.267);
+}
+
+nav {
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+}
+
+nav > ul {
+	display: inline-block;
+	vertical-align: center;
+}
+
+nav > ul > li {
+	float: left;
+	width: 50%;
+}
+
+nav > ul > li > a {
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li > a:hover {
+	color: bisque;
+}
+
+nav > ul > li:first-child > a {
+	margin-right: 30px;
+}
+
+header > a {
+	float: right;
+	background: white;
+	color: black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 2em;
+	margin-top: 5px;
+}
+
+header > a:hover {
+	background: beige;
+}
+
+header > img {
+	width: 40px;
+}
+
+/* end of header and nav */
+
+/* hero section */
+
+.hero {
+	color: white;
+	background: rgba(0, 0, 0, 0.267);
+	text-align: center;
+	padding: 50px 300px;
+}
+
+.hero > h1 {
+	font-size: 5em;
+	letter-spacing: 3px;
+}
+
+.hero > p {
+	font-size: 2em;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+.hero > div {
+	margin-top: 40px;
+}
+
+.hero > div > i {
+	margin-right: 10px;
+	font-size: 2.5em;
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	cursor: pointer;
+}
+
+.hero > div > span {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+/* End of hero section */
+
+/* Start of why/volunteer section */
+
+.container {
+	clear: both;
+	text-align: center;
+	padding: 100px 400px;
+}
+
+.container > h2 {
+	font-size: 3.5em;
+	letter-spacing: 2px;
+}
+
+.container > p {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.8em;
+	font-weight: 400;
+}
+
+.container a {
+	margin-top: 10px;
+	font-size: 2em;
+}
+/* end of why/volunteer section */
+
+/* start of options section */
+.container__2 {
+	padding: 100px 150px;
+	width: 100%;
+	clear: both;
+	float: left;
+	background: #cad2db;
+}
+
+.container__2 > section {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 30px;
+}
+
+.container__2 > section > img {
+	width: 80%;
+}
+
+.container__2 > section > h3 {
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.container__2 > section > p {
+	font-size: 1.5em;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	margin-bottom: 25px;
+}
+
+.container__2 > section > a {
+	font-size: 2em;
+}
+/* end of options section */
+
+/* footer */
+
+footer {
+	background: #161e2b;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	padding: 20px;
+	float: left;
+}
+
+/* footer left side */
+
+footer .ftr__socialandsite {
+	float: left;
+}
+
+footer .ftr__socialandsite span {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.5em;
+	color: #777777;
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+footer .ftr__socialandsite ul:first-child li {
+	float: left;
+	width: 33.333%;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+footer .ftr__socialandsite ul li {
+	float: left;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+footer .ftr__socialandsite ul li a {
+	font-size: 1.5em;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+footer .ftr__socialandsite ul li:first-child a {
+	margin-right: 20px;
+}
+
+/* end of footer left side */
+
+/* start of footer right side */
+
+footer .ftr__contactandaddress {
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.5em;
+}
+
+footer .ftr__contactandaddress span {
+	font-weight: bold;
+	display: block;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+footer .ftr__contactandaddress p {
+	margin-bottom: 40px;
+}
+
+/* end of footer right side */
+
+/* footer bottom */
+
+footer hr {
+	clear: both;
+}
+
+footer img {
+	margin-top: 5px;
+	width: 30px;
+	float: right;
+}
+
+footer span {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+/* End of footer bottom */
+
+/******************************************
+/* ADDITIONAL STYLES & media queries
+/*******************************************/
+
+/* 1200px and less */
+
+@media screen and (max-width: 1200px) {
+	.hero {
+		padding: 50px 200px;
+	}
+
+	.container {
+		padding: 75px 250px;
+	}
+
+	.container__2 {
+		padding: 75px 100px;
+	}
+}
+
+/* 800px and less */
+
+@media screen and (max-width: 800px) {
+	.hero {
+		padding: 50px 100px;
+	}
+
+	.container {
+		padding: 75px 125px;
+	}
+
+	.container__2 {
+		padding: 75px 50px;
+	}
+
+	.container__2 section {
+		width: 100%;
+	}
+}
+
+/* 500px and less */
+
+@media screen and (max-width: 500px) {
+	header {
+		padding: 15px 20px;
+	}
+
+	.hero {
+		padding: 50px 50px;
+	}
+
+	.container {
+		padding: 75px 50px;
+	}
+
+	.container__2 {
+		padding: 75px 20px;
+	}
+
+	.container__2 section {
+		width: 100%;
+	}
+}
+
+/* less than 300 */
+@media screen and (max-width: 300px) {
+	header {
+		padding: 15px 10px;
+	}
+
+	.hero {
+		padding: 50px 20px;
+	}
+
+	.container {
+		padding: 75px 20px;
+	}
+
+	.container__2 {
+		padding: 75px 10px;
+	}
+
+	.container__2 section {
+		width: 100%;
+	}
+
+	footer .ftr__contactandaddress {
+		float: left;
+		margin-top: 20px;
+	}
+}
