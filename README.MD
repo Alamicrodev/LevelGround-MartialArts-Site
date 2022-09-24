@@ -12,7 +12,7 @@ Without using CSS grid or flexbox, create a site for a martial arts training gro
 
 The purpose is to write responsive CSS without relying on CSS grid or flexbox. This sharpens the skill to understand complex CSS concepts like floats and clears.
 
-### Languages and Tools
+### Languages and Tools:
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
 <img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
